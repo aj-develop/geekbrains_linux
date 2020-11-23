@@ -51,7 +51,8 @@ alex@alex-ubuntu:~/test$ mkdir test2
 alex@alex-ubuntu:~/test$ mv file5 test2
 alex@alex-ubuntu:~/test$ cat test2/file5
 cat: test2/file5: No such file or directory
-# file5 битая ссылка
+# file5 битая ссылка.
+# Этого можно избежать, если при создании линка использовать абсолютный путь к цели.
 
 ##########
 # 3.
